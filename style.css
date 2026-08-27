@@ -219,7 +219,12 @@ button {
 .burger span:nth-child(3) { transform: translateY(6px); }
 
 .burger.active {
-  background: rgba(79, 110, 94, 0.15);
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.burger.active span {
+  background: #ffffff !important;
 }
 .burger.active span:nth-child(1) {
   transform: translateY(2.5px) rotate(45deg);
